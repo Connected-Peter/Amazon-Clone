@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://amazon.com/favicon.ico" type="image/x-icon" />
+    <title>Amazon Gift Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gray-100 ">
+
+    <header class="hidden sm:flex bg-[#046a47] text-white items-center justify-between px-4 py-3 space-x-3">
+        <div class="flex items-center space-x-1 cursor-pointer">
+          <a href="./index.html"><img src="./Images/Amazon-Logo-White-Transparent.png" alt="Amazon Logo"
+              class="h-2 sm:h-7 md:h-8 lg:h-9"></a>
+        </div>
+        <div class="flex">
+          <div> <img src="./Images/location_on_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""
+              class="mt-3 w-2 h-2 md:w-5 h-5"> </div>
+          <div class="text-white text-[4px] md:text-sm">
+            <p class="text-aliceblue">Deliver to</p>
+            <p class="font-semibold">Nigeria</p>
+          </div>
+        </div>
+        <div class="flex flex-grow max-w-3xl mx-2"> <select
+            class="bg-gray-200 text-gray-800 text-[6px] md:text-sm px-1 md:px-2 rounded-l-md focus:outline-none">
+            <option>All</option>
+          </select> <input type="text" placeholder="Search Amazon"
+            class="flex-grow px-1 md:px-3 py-1 md:py-2 text-gray-800 bg-amber-50 focus:outline-none text-[6px] md:text-sm" />
+          <button
+            class="bg-[#febd69] px-3 md:px-4 py-1 md:py-2 rounded-r-md hover:bg-[#f3a847] flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-2 md:h-5 md:w-5 text-black" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z" />
+            </svg> </button>
+        </div>
+        <div class="relative group">
+          <div class="flex items-center space-x-1 py-1 cursor-pointer"> <img src="https://flagcdn.com/w20/us.png" alt=""
+              class="w-3 h-2 md:w-4 h-3" /> <span class="text-white text-[6px] md:text-sm">EN▾</span> </div>
+          <div
+            class="absolute right-0 hidden group-hover:block bg-white text-gray-700 shadow-lg w-56 mt-2 rounded-md p-3 z-50">
+            <p class="text-xs text-gray-500 mb-1 font-semibold"> Change language </p>
+            <ul class="space-y-4 text-sm">
+              <li> <label class="flex items-center space-x-2"><input type="radio" name="lang" checked /><span>English -
+                    EN</span></label> </li>
+              <li> <label class="flex items-center space-x-2"><input type="radio" name="lang" /><span>Español -
+                    ES</span></label> </li>
+              <li> <label class="flex items-center space-x-2"><input type="radio" name="lang" /><span>العربية -
+                    AR</span></label> </li>
+              <li> <label class="flex items-center space-x-2"><input type="radio" name="lang" /><span>Deutsch -
+                    DE</span></label> </li>
+              <li> <label class="flex items-center space-x-2"><input type="radio" name="lang" /><span>العربية -
+                    AR</span></label> </li>
+              <li> <label class="flex items-center space-x-2"><input type="radio" name="lang" /><span>Deutsch -
+                    DE</span></label> </li>
+              <li> <label class="flex items-center space-x-2"><input type="radio" name="lang" /><span>한국어 -
+                    KO</span></label> </li>
+            </ul>
+            <hr class="my-2" />
+            <p class="text-xs font-semibold">Change currency</p>
+            <p class="text-xs mb-1"> NGN - Nigerian Naira <a href="#" class="text-blue-600">Change </p>
+            <hr class="my-2" />
+            <p class="text-xs">You are shopping on <strong>Amazon.com</strong></p> <a href="#"
+              class="text-blue-600 text-xs">Change country/region
+          </div>
+        </div>
+        <div class="relative group">
+          <div class="cursor-pointer text-white text-[4px] md:text-sm leading-tight">
+            <p>Hello, sign in</p>
+            <p class="font-bold">Account & Lists ▾</p>
+          </div>
+          <div
+            class="absolute hidden group-hover:block bg-white text-black rounded-md shadow-md top-10 right-0 w-72 p-4 text-sm">
+            <button class="bg-[#febd69] w-full py-2 rounded-md mb-3 font-bold hover:bg-[#f3a847]">Sign in</button>
+            <p class="text-center text-xs">New customer? <a href="#" class="text-blue-600">Start here.</a></p>
+            <hr class="my-2">
+            <div class="flex justify-between">
+              <div>
+                <p class="font-bold mb-1">Your Lists</p>
+                <ul class="space-y-1">
+                  <li>Create a List</li>
+                  <li>Find a List or Registry</li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-bold mb-1">Your Account</p>
+                <ul class="space-y-1">
+                  <li>Account</li>
+                  <li>Orders</li>
+                  <li>Recommendations</li>
+                  <li>Browsing History</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center space-x-1 cursor-pointer"> <svg xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4 md:h-7 md:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.35 2.7A1 1 0 007 17h10a1 1 0 00.9-.55L20 13M7 13l.4-2M7 13H3" />
+          </svg> <span class="text-[7px] md:text-sm font-bold">Cart</span>
+        </div>
+      </header>
+    
+      <header class="sm:hidden bg-[#046a47] text-white px-4 py-2">
+    
+        <div class="flex items-center justify-between">
+    
+          <div class="flex items-center space-x-2">
+    
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+    
+    
+            <a href="./index.html">
+              <img src="./Images/Amazon-Logo-White-Transparent.png" alt="Amazon Logo" class="h-5">
+            </a>
+          </div>
+    
+          <div class="flex items-center space-x-4">
+            <a href="#" class="text-[10px] hover:underline">Sign in ›</a>
+    
+            <div class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.35 2.7A1 1 0 007 17h10a1 1 0 00.9-.55L20 13M7 13l.4-2M7 13H3" />
+              </svg>
+            </div>
+          </div>
+        </div>
+    
+        <div class="mt-2">
+          <div class="flex w-full">
+            <input type="text" placeholder="Search Amazon"
+              class="flex-grow px-2 py-1 text-[10px] text-gray-800 bg-white rounded-l-md focus:outline-none" />
+            <button class="bg-[#c7511f] px-2 py-1 rounded-r-md hover:bg-[#a8471c] flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+    
+
+    <nav class="bg-[#085749] p-2">
+        <div
+            class="flex justify-evenly items-center text-white w-1/2 text-[4px] sm:text-[10px] md:text-[12px] lg:text-[14px]">
+
+            <!-- Hamburger Menu (Sidebar Trigger) -->
+            <img src="./Images/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu Icon"
+                onclick="toggleSidebar()" class="cursor-pointer w-2 sm:w-3 md:w-5 lg:w-7">
+
+            <a href="">All</a>
+            <a href="">Today's Deal</a>
+            <a href="./regpage.html">Registry</a>
+            <a href="./gift.html">Gift Cards</a>
+            <a href="">Prime Video</a>
+            <a href="./cs.html">Customer Service</a>
+            <a href="">Sell</a>
+        </div>
+    </nav>
+
+    <div id="overlay" onclick="toggleSidebar()" class="fixed inset-0 bg-transparent bg-opacity-10 hidden z-40"></div>
+
+    <div id="sidebar"
+        class="fixed top-0 left-0 w-72 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-300 z-50 overflow-y-auto">
+
+        <!-- Sidebar Header -->
+        <div class="bg-[#131921] text-white flex items-center justify-between p-4">
+            <span class="font-semibold text-lg">Hello, sign in</span>
+            <button onclick="toggleSidebar()" class="text-2xl">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+
+        <!-- Sidebar Content -->
+        <div class="divide-y divide-gray-200 text-gray-800">
+            <div class="p-4">
+                <h2 class="font-bold text-sm uppercase mb-2">Digital Content & Devices</h2>
+                <ul class="space-y-2 text-sm">
+                    <li class="flex justify-between">Prime Video <span
+                            class="material-symbols-outlined text-xs">chevron_right</span></li>
+                    <li class="flex justify-between">Amazon Music <span
+                            class="material-symbols-outlined text-xs">chevron_right</span></li>
+                    <li class="flex justify-between">Kindle E-readers & Books <span
+                            class="material-symbols-outlined text-xs">chevron_right</span></li>
+                    <li class="flex justify-between">Amazon Appstore <span
+                            class="material-symbols-outlined text-xs">chevron_right</span></li>
+                </ul>
+            </div>
+
+            <div class="p-4">
+                <h2 class="font-bold text-sm uppercase mb-2">Shop by Department</h2>
+                <ul class="space-y-2 text-sm">
+                    <li class="flex justify-between">Electronics <span
+                            class="material-symbols-outlined text-xs">chevron_right</span></li>
+                    <li class="flex justify-between">Computers <span
+                            class="material-symbols-outlined text-xs">chevron_right</span></li>
+                    <li class="flex justify-between">Smart Home <span
+                            class="material-symbols-outlined text-xs">chevron_right</span></li>
+                    <li class="flex justify-between">Arts & Crafts <span
+                            class="material-symbols-outlined text-xs">chevron_right</span></li>
+                    <li class="flex justify-between">See all <span
+                            class="material-symbols-outlined text-xs">expand_more</span></li>
+                </ul>
+            </div>
+
+            <div class="p-4">
+                <h2 class="font-bold text-sm uppercase">Programs & Features</h2>
+            </div>
+        </div>
+    </div>
+
+
+
+    <main class="bg-white">
+
+        <nav class="w-full border-b border-gray-200">
+            <div
+                class="flex flex-wrap items-center w-[96%] mx-auto gap-2 sm:gap-6 py-3 text-[0.2rem] sm:text-[1.5vh] font-medium text-gray-700">
+                <a href="#" class="hover:text-[#524b4b]">Gift Cards</a>
+                <a href="#" class="hover:text-[#524b4b]">Redeem Gift Cards</a>
+                <a href="#" class="text-blue-600 border-b-2 border-blue-600 pb-1">View Your Balance</a>
+                <a href="#" class="hover:text-[#524b4b]">Reload Your Balance</a>
+                <a href="#" class="hover:text-[#524b4b]">For Businesses</a>
+                <a href="#" class="hover:text-[#524b4b]">Be Informed</a>
+                <a href="#" class="hover:text-[#524b4b]">Find a Gift</a>
+                <a href="#" class="hover:text-[#524b4b]">Registry &amp; Gifting</a>
+            </div>
+        </nav>
+
+        <section class="text-white text-center py-4 px-4 w-[98%] mx-auto">
+            <img src="https://m.media-amazon.com/images/G/01/DiscoTec/2025/HOL/Browse/Reciprocals/HOL25-Peak_11963_Browse_DT_Reciprocal_Banner_Gifting_Shop_All_1500x175.jpg"
+                alt="">
+        </section>
+
+        <section
+            class="w-[100%] flex flex-col gap-4 md:flex-row items-center justify-center md:gap-10 py-8 px-6 bg-white">
+            <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Manage_GiftCard_Tiles_Desktop-Redeem._CB790097877_.png"
+                alt="" class="w-[70%] h-auto object-contain md:w-[30%]">
+            <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Manage_GiftCard_Tiles_Desktop-View-Balance._CB790097877_.png"
+                alt="" class="w-[70%] h-auto object-contain md:w-[30%]">
+            <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Manage_GiftCard_Tiles_Desktop-Reload._CB790097877_.png"
+                alt="" class="w-[70%] h-auto object-contain md:w-[30%]">
+        </section>
+
+        <section class="bg-orange-500 mt-6 text-white text-center py-4 px-4 w-[97%] mx-auto rounded-sm">
+            <img src="https://m.media-amazon.com/images/G/01/GiftCards/2025/Q4/VX-2828/GCLP-Banner-Desktop_EN_1.png"
+                alt="">
+        </section>
+
+        <footer class=" px-6 py-6 text-sm sm:text-base">
+            <p class="font-bold">
+                Give a holiday gift card
+                <a href="#" class="text-blue-600 hover:underline font-medium p-5 text-[0.7vw]">Shop all</a>
+            </p>
+        </footer>
+
+        <div class="w-[94%] m-auto flex bg-white gap-[2%]">
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_16_41mnhamAdBL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_18_41cNZBgrLjL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_19_21A+MMLBzeL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_21_41aAHs2FnnL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div class="hidden md:block">
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_31_41TNoHokJjL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+
+        </div>
+
+        <footer class=" px-6 py-6 text-sm sm:text-base">
+            <p class="font-bold">
+                So many ways to celebrate
+                <a href="#" class="text-blue-600 hover:underline font-medium p-5 text-[0.7vw]">Shop all</a>
+            </p>
+        </footer>
+
+        <div class="w-[94%] m-auto flex bg-white gap-[2%]">
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_20_31VmyxppnIL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_22_41SL+kGgqcL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_23_412dL7aq6PL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_25_31x451MtRuL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div class="hidden md:block">
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_29_41jNdI4qo1L._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+
+        </div>
+
+        <footer class=" px-6 py-6 text-sm sm:text-base">
+            <p class="font-bold">
+                Customers loves this Gift Cards
+                <a href="#" class="text-blue-600 hover:underline font-medium p-5 text-[0.7vw]">Shop all</a>
+            </p>
+        </footer>
+
+        <div class="w-[94%] m-auto flex bg-white gap-[2%]">
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_16_41mnhamAdBL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_18_41cNZBgrLjL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_19_21A+MMLBzeL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div>
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_21_41aAHs2FnnL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+            <div class="hidden md:block">
+                <div class="py-4 px-3 bg-[#f3f4f6] rounded-md">
+                    <img src="./Amapics/imgi_31_41TNoHokJjL._SR480_440_-removebg-preview.png" alt="">
+                </div>
+                <p class="text-[0.5rem] md:text-[0.7rem] font-semibold">Amazon eGift Card - Seasonal </p>
+                <p class="font-semibold text-[0.5rem] md:text-[0.7rem]"><sup>NGN</sup>72,075</p>
+            </div>
+
+        </div>
+
+
+        <p class="font-bold text-[0.7rem] md:text-[1.5rem] w-[95%] m-auto mt-10">Shop Gift Cards by Occasion</p>
+
+        <div class="flex my-4 gap-[2%] w-[94%] m-auto">
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Occasion-Tiles_Desktop_Birthday_EN._CB788667293_.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Occasion-Tiles_Desktop_Appreciation_EN._CB788667293_.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Occasion-Tiles_Desktop_Any-Occasion_EN._CB788667293_.png"
+                    alt="">
+            </div>
+        </div>
+
+        <p class="font-bold text-[0.7rem] md:text-[1.5rem] w-[95%] m-auto mt-10">Shop Gift Cards by Brand</p>
+
+        <div class="flex my-4 gap-[6%] w-[94%] m-auto">
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Brand-Tile_Desktop_Shop-Specialty-Gift-Cards._CB789090450_.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Brand-Tile_Desktop_Amazon._CB790097877_.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Brand-Tile_Desktop_Apple._CB790097877_.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Brand-Tile_Desktop_DoorDash._CB790097877_.png"
+                    alt="">
+            </div>
+        </div>
+
+        <p class="font-bold text-[0.7rem] md:text-[1.5rem] w-[95%] m-auto mt-16">Shop Gift Cards by Category</p>
+
+        <div class="flex my-4 gap-[3%] w-[94%] m-auto">
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Shop-by-Category_Desktop_Restaurant_Coffee_Grocery_EN.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Shop-by-Category_Desktop_Movie_Music_Games_EN.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Shop-by-Category_Desktop_Travel_Rides_EN.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Shop-by-Category_Desktop_Style_Beauty_EN.png"
+                    alt="">
+            </div>
+        </div>
+
+        <p class="font-bold text-[0.7rem] md:text-[1.5rem] w-[95%] m-auto mt-16">Shop Gift Cards by Delivery Type</p>
+
+        <div class="flex my-4 gap-[1%] w-[94%] m-auto">
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Shop-delivery-by-type_Desktop_eGift_Card_EN.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Shop-delivery-by-type_Desktop_Physical_Gift_Card_EN.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/2025/PNG/Shop-delivery-by-type_Desktop_Print_At_Home_EN.png"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="flex my-4 gap-[1%] w-[94%] m-auto my-10">
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/2025/AB/Q3/VX-2815/VX-2815_US-en_Left.jpg"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/G/01/GiftCards/2025/AB/Q3/VX-2815/VX-2815_US-en_Right_BG.jpg"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="flex my-4 gap-[1%] w-[94%] space-y-4 m-auto my-10 flex-wrap md:flex-nowrap">
+            <div class="aspect-[16/9] w-full max-w-4xl mx-auto">
+                <iframe 
+                  class="w-full h-full rounded-lg shadow-lg"
+                  src="https://www.youtube.com/embed/OaTsvi49AWs?si=ITiqjh50Zfq_8kUz"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen>
+                </iframe>
+            </div>              
+
+            <div
+                class="border border-gray-400 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 p-4 cursor-pointer max-md:w-[95%] m-auto my-2">
+                <img src="./Amapics/vid__2_-removebg-preview.png" alt="Product 1" class="w-[20%] h-auto rounded-md mb-4 object-contain">
+                <p class="text-sm font-semibold text-gray-800 mb-1">Featured now</p>
+                <p class="text-sm text-gray-700 leading-snug">
+                    BYOMA Universal Skincare Heroes (5-Piece Kit) - Skincare Gift Set with...
+                </p>
+                <p class="text-lg font-semibold mt-2">$32<sup class="align-super text-xs">99</sup></p>
+            </div>
+
+            <div
+                class="border border-gray-400 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 p-4 cursor-pointer max-md:w-[95%] m-auto my-4">
+                <img src="./Amapics/vid__5_-removebg-preview.png" alt="Product 2"
+                    class="w-[30%] h-auto rounded-md mb-4 object-contain">
+                <p class="text-sm text-gray-700 leading-snug">
+                    PCA SKIN Daily Face Exfoliant Cleanser, Moisturizing Face Wash,...
+                </p>
+                <p class="text-lg font-semibold mt-2">$48<sup class="align-super text-xs">00</sup></p>
+            </div>
+
+            <div
+                class="border border-gray-400 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 p-4 cursor-pointer max-md:w-[95%] m-auto">
+                <img src="./Amapics/vid__4_-removebg-preview.png" alt="Product 3" class="w-[30%] h-auto rounded-md mb-4 object-contain">
+                <p class="text-sm text-gray-700 leading-snug">
+                    Wellness Box 12pc Self Care Spa Gift Basket for Women – Loving Gift...
+                </p>
+                <p class="text-lg font-semibold mt-2">$74<sup class="align-super text-xs">99</sup></p>
+            </div>
+
+        </div>
+
+        <div class="w-[96%] m-auto rounded-md">
+            <img src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/D_Fraud.jpg" alt="" class="rounded-md">
+        </div>
+
+        <p class="font-bold text-[2vw] w-[92%] m-auto mt-16">Frequently Asked Questions</p>
+
+        <p class="font-bold text-[1.3vw] w-[92%] m-auto mt-10">What can Amazon Gift Cards be redeemed towards?</p>
+        <p class="w-[92%] m-auto text-[1.1vw] my-1">Amazon Gift Cards are redeemable towards the purchase of millions of eligible goods and services provided by Amazon.com Services LLC and its affiliates on www.amazon.com, or certain of its affiliated properties. Eligible goods and services are subject to change in our sole discretion.</p>
+
+        <p class="font-bold text-[1.3vw] w-[92%] m-auto">Are there any shipping costs on Amazon Gift Cards?</p>
+        <p class="w-[92%] m-auto text-[1.1vw] my-1">Physical Amazon.com gift cards (except Anytime Gift Cards) are delivered with FREE One-Day shipping when you select One-Day shipping at checkout. For more information, check this page.</p>
+
+        <p class="font-bold text-[1.3vw] w-[92%] m-auto">What can Amazon Gift Cards be redeemed towards?</p>
+        <p class="w-[92%] m-auto text-[1.1vw] my-1">Amazon Gift Cards have no fees and no expiration date.</p>
+
+        <p class="font-bold text-[1.3vw] w-[92%] m-auto">Someone has asked me to pay them with a gift card. Is this a scam?</p>
+        <p class="w-[92%] m-auto text-[1.1vw] my-1">Beware of gift card scams. Do not provide any gift card details (such as the claim code) to someone you do not know or trust. Never use Amazon.com Gift Cards for payment outside of Amazon or its affiliated stores, and never use gift cards for other retailers and brands outside of their stores. Please visit this page for information or if you think you have been the target of a gift card scam.</p>
+
+        <p class="font-bold text-[1.3vw] w-[92%] m-auto">Where can I get other gift card-related questions answered?</p>
+        <p class="w-[92%] m-auto text-[1.1vw] my-1 pb-10">Please visit our Gift Card Help Page.</p>
+
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="bg-[#37475a] p-4 text-white font-semibold text-[1vw] text-center">
+          <a href="">Back to top</a>
+        </div>
+    
+        <div class="bg-[#232f3e] text-[#d1ddd8] py-10 text-[1vw]">
+          <div class="w-[96%] lg:w-[80%] m-auto justify-evenly md:justify-between  flex shrink">
+            <div class="space-y-2">
+              <h4 class="font-bold text-[1.2vw] text-white">Get to Know Us</h4>
+              <ul><a href="">Careers</a></ul>
+              <ul><a href="">Blog</a></ul>
+              <ul><a href="">About Amazon</a></ul>
+              <ul><a href="">Investor Relations</a></ul>
+              <ul><a href="">Amazon Devices</a></ul>
+              <ul><a href="">Amazon Science</a></ul>
+            </div>
+    
+            <div class="space-y-2">
+              <h4 class="font-bold text-[1.2vw] text-white">Make Money with Us</h4>
+              <ul><a href="">Sell products on Amazon</a></ul>
+              <ul><a href="">Sell on Amazon Business</a></ul>
+              <ul><a href="">Sell apps on Amazon</a></ul>
+              <ul><a href="">Become an Affiliate</a></ul>
+              <ul><a href="">Advertise Your Products</a></ul>
+              <ul><a href="">Self-Publish with Us</a></ul>
+              <ul><a href="">Host an Amazon Hub</a></ul>
+              <ul><a href="">›See More Make Money with Us</a></ul>
+            </div>
+    
+            <div class="space-y-2">
+              <h4 class="font-bold text-[1.2vw] text-white">Amazon Payment Products</h4>
+              <ul><a href="">Amazon Business Card</a></ul>
+              <ul><a href="">Shop with Points</a></ul>
+              <ul><a href="">Investor Relations</a></ul>
+              <ul><a href="">Reload Your Balance</a></ul>
+              <ul><a href="">Amazon Currency Converter</a></ul>
+            </div>
+    
+            <div class="space-y-2">
+              <h4 class="font-bold text-[1.2vw] text-white">Let Us Help You</h4>
+              <ul><a href="">Amazon and COVID-19</a></ul>
+              <ul><a href="">Your Account</a></ul>
+              <ul><a href="">Your Orders</a></ul>
+              <ul><a href="">Shipping Rates & Policies</a></ul>
+              <ul><a href="">Returns & Replacements</a></ul>
+              <ul><a href="">Manage Your Content <br> and Devices</a></ul>
+              <ul><a href="">Help</a></ul>
+            </div>
+          </div>
+    
+          <div class="border-t mt-8 border-gray-700 "></div>
+    
+          <div class="flex w-[60%] m-auto py-4 justify-between items-center">
+            <img src="./Images/Amazon-Logo-White-Transparent.png" alt="Amazon Logo" class="  h-2 sm:h-5 md:h-7 lg:h-8">
+    
+            <div>
+              <div class="flex flex-wrap gap-2 bg-transparent p-4 text-[1vw] text-white">
+    
+                <div
+                  class="flex items-center gap-2 border border-gray-600 rounded-md px-3 py-1 cursor-pointer hover:border-gray-400">
+                  <img src="./Images/language_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="w-[2vw]">
+                  <span>English</span>
+                  <span class="material-symbols-outlined text-xs">arrow_drop_down</span>
+                </div>
+    
+                <div
+                  class="flex items-center gap-2 border border-gray-600 rounded-md px-3 py-1 cursor-pointer hover:border-gray-400">
+                  <span class="font-semibold">NGN</span>
+                  <span>Nigerian Naira</span>
+                </div>
+    
+                <div
+                  class="flex items-center gap-2 border border-gray-600 rounded-md px-3 py-1 cursor-pointer hover:border-gray-400">
+                  <img src="https://flagcdn.com/w20/us.png" alt="US Flag" class="w-5 h-3 object-cover rounded-sm">
+                  <span>United States</span>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div class="bg-[#131a22]">
+          <div class="w-[96%] md:w-[80%] m-auto grid grid-cols-7 text-[0.95vw] py-4 gap-3 md:gap-10">
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Amazon Music</h5>
+              <p class="text-gray-400">Stream millions <br> of songs</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Amazon Ads</h5>
+              <p class="text-gray-400">Reach customers <br> wherever they <br> spend their time</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">6 pm</h5>
+              <p class="text-gray-400">Score deals on fashion brands </p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">AbeBooks</h5>
+              <p class="text-gray-400">Books, art & collectibles</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">ACX</h5>
+              <p class="text-gray-400">Audiobook Publishing Made Easy</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Box Office Mojo</h5>
+              <p class="text-gray-400">Find Movie Box Office Data</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Goodreads</h5>
+              <p class="text-gray-400">Book reviews & recommendations</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">IMDb</h5>
+              <p class="text-gray-400">Movies, TV & Celebrities</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Veeqo</h5>
+              <p class="text-gray-400">Shipping Software Inventory Management</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Amazon Business</h5>
+              <p class="text-gray-400">Everything For Your Business</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Amazon Global</h5>
+              <p class="text-gray-400">Ship Orders Internationally</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Amazon Web Services</h5>
+              <p class="text-gray-400">Scalable Cloud Computing Services</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Audible</h5>
+              <p class="text-gray-400">Listen to Books & Original Audio Performances</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Sell on Amazon</h5>
+              <p class="text-gray-400">Start a Selling Account</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">IMDbPro</h5>
+              <p class="text-gray-400">Get Info Entertainment Professionals Need</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Kindle Direct Publishing</h5>
+              <p class="text-gray-400">Indie Digital & Print Publishing Made Easy</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Prime Video Direct</h5>
+              <p class="text-gray-400">Video Distribution Made Easy</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Shopbop</h5>
+              <p class="text-gray-400">Designer Fashion Brands</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Woot!</h5>
+              <p class="text-gray-400">Deals and Shenanigans</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Zappos</h5>
+              <p class="text-gray-400">Shoes & Clothing</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Ring</h5>
+              <p class="text-gray-400">Smart Home Security Systems</p>
+            </div>
+          </div>
+    
+          <div class="flex gap-3 md:gap-10 shrink text-[0.95vw] w-[70%] md:w-[56%] mx-auto pb-8">
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">eero WiFi</h5>
+              <p class="text-gray-400">Stream 4K Video in Every Room</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Blink</h5>
+              <p class="text-gray-400">Smart Security for Every Home</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Neighbors App</h5>
+              <p class="text-gray-400">Real-Time Crime & Safety Alerts</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">Amazon Subscription Boxes</h5>
+              <p class="text-gray-400">Top subscription boxes – right to your door</p>
+            </div>
+    
+            <div>
+              <h5 class="font-semibold text-[#bdddd1]">PillPack</h5>
+              <p class="text-gray-400">Pharmacy Simplified</p>
+            </div>
+    
+          </div>
+    
+        </div>
+      </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('overlay');
+            sidebar.classList.toggle('-translate-x-full');
+            overlay.classList.toggle('hidden');
+        }
+    </script>
+</body>
